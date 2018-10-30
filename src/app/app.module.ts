@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScriptLoaderService } from "./_services/script-loader.service";
-import { AdminRoutingModule } from "./admin/admin-routing.module";
+import { AdminModule } from "./admin/admin.module";
 import { AuthModule } from "./auth/auth.module";
 
 @NgModule({
@@ -20,7 +20,7 @@ import { AuthModule } from "./auth/auth.module";
         BrowserModule,
         BrowserAnimationsModule,
         AppRoutingModule,
-        AdminRoutingModule,
+        AdminModule,
         AuthModule,
     ],
     providers: [ScriptLoaderService],
