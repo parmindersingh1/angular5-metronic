@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AdminComponent } from './admin/admin.component';
 import { LayoutModule } from './admin/layouts/layout.module';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
@@ -12,7 +11,6 @@ import { AuthModule } from "./auth/auth.module";
 
 @NgModule({
     declarations: [
-        AdminComponent,
         AppComponent,
     ],
     imports: [

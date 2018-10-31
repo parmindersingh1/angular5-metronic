@@ -1,8 +1,8 @@
-import { LayoutModule } from './../../layouts/layout.module';
+import { LayoutModule } from '../../layouts/layout.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { BlankComponent } from './blank.component';
+import { DashboardComponent } from './dashboard.component';
 
 const routes: Routes = [
     {
@@ -10,7 +10,7 @@ const routes: Routes = [
         'children': [
             {
                 'path': '',
-                'component': BlankComponent,
+                'component': DashboardComponent,
             },
         ],
     },
@@ -22,8 +22,8 @@ const routes: Routes = [
     ], exports: [
         RouterModule,
     ], declarations: [
-        BlankComponent,
+        DashboardComponent,
     ],
 })
-export class BlankModule {
+export class DashboardModule {
 }
