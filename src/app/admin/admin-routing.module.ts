@@ -11,7 +11,7 @@ const routes: Routes = [
         'children': [
             {
                 'path': 'admin',
-                'loadChildren': '.\/pages\/default\/blank\/blank.module#BlankModule',
+                'loadChildren': '.\/pages\/blank\/blank.module#BlankModule',
             },
             {
                 'path': '',
