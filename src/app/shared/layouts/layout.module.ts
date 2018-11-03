@@ -10,6 +10,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { QuickSidebarComponent } from './quick-sidebar/quick-sidebar.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
+import { TemplateComponent } from './template/template.component';
 
 
 
@@ -18,6 +19,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
     declarations: [
         LayoutComponent,
 
+        TemplateComponent,
         HeaderNavComponent,      
         AsideNavComponent,
         FooterComponent,
@@ -30,6 +32,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
     exports: [
         LayoutComponent,
 
+        TemplateComponent,
         HeaderNavComponent,
         AsideNavComponent,
         FooterComponent,
