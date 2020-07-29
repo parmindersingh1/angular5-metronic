@@ -26,12 +26,9 @@ export class AuthComponent implements OnInit {
     loading = false;
     returnUrl: string;
 
-    @ViewChild('alertSignin',
-        { read: ViewContainerRef }) alertSignin: ViewContainerRef;
-    @ViewChild('alertSignup',
-        { read: ViewContainerRef }) alertSignup: ViewContainerRef;
-    @ViewChild('alertForgotPass',
-        { read: ViewContainerRef }) alertForgotPass: ViewContainerRef;
+    @ViewChild('alertSignin', { read: ViewContainerRef, static: true }) alertSignin: ViewContainerRef;
+    @ViewChild('alertSignup', { read: ViewContainerRef, static: true }) alertSignup: ViewContainerRef;
+    @ViewChild('alertForgotPass', { read: ViewContainerRef, static: true }) alertForgotPass: ViewContainerRef;
 
     constructor(
         private _router: Router,
