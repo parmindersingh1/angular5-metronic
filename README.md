@@ -1,5 +1,5 @@
 # angular5-metronic
-metronic theme angular 7 startup
+metronic theme angular 10 startup
 
 clone and install Node.js from https://nodejs.org/en/download/
 
